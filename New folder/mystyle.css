@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+a:link {
+  color:lightblue;
+}
+
+a:visited {
+  color: lightblue;
+	background-color:#B0D3E6;
+}
+
+a:hover {
+  color: darkslateblue;
+}
+
+a:active {
+  color: lightblue;
+}
+.threecolumns {
+	width: 28%;
+	padding: 48px;
+	float: left;
+	background-color:#B0D3E6; 
+	margin: 9px;
+	border-style: solid;
+	border-style: 10px
+}
+#headerdiv {
+	background-image: url("blue.png") ;
+	background-color:darkblue; 
+	color: white; 
+	font-size: 50px; 
+	text-align: center;	
+}
+
+.threecolumns:hover {
+	box-shadow: 0px 0px 10px 10px #badaff;
+	transform: translateY(-3px);
+}
+
+.threecolumns:active {
+}
+
+mark {
+  background-color: darkblue; 
+  color: white; 
+}
+
+.aboutme-main {
+    overflow: auto;
+    margin: 20px 0;
+}
+
+.about-images {
+    float: left;
+    width: 220px; 
+    margin-right: 20px;
+}
+
+.about-images img {
+    display: block;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.about-text {
+    overflow: hidden; 
+    color: darkblue;
+    font-size: 1.1em;
+}
+
+@media (max-width: 700px) {
+    .about-images, .about-text {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    .about-images img {
+        width: 100%;
+    }
+}
