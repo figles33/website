@@ -87,9 +87,11 @@
     </div>
   </div>
 </div>
-		<p style="color: darkblue"> I made the image lightbox by setting up small thumbnail pictures that you can click on. When you click, it opens a bigger version of the image in the center of the screen.
-			I used HTML to lay out the thumbnails and the modal, CSS to style the background, borders, and hover effects, and JavaScript to make the images change when you press the arrows or thumbnails. This way, 
-			I made the gallery interactive so people can easily look through my favorite images. </p>
+		<p style="color: darkblue">I made the image lightbox by first setting up a row of smaller thumbnail images in HTML, and when you click one, it opens a larger version in the center of the screen. The HTML holds both the thumbnails and the modal structure that appears when the lightbox opens. 
+			I then used CSS to style the layout, like giving the thumbnails spacing with margins and adding hover effects with shadows to make them stand out. I also used CSS to create the modal itself, setting it to display: none at first,
+			then having it fill the whole screen with a dark background when opened. The arrows for next and previous were also styled in CSS to look like buttons and change when hovered over. On top of that, I styled the caption box to have a clean look with white text on a dark background, 
+			and I made the images adjust to the width of the modal so they always fit the screen. 
+			Finally, I added JavaScript so the modal shows the right image when clicked, and so the next and previous buttons cycle through the images. This combination of HTML, CSS, and JavaScript let me build a clean, interactive gallery that looks nice and works smoothly. </p>
 	<script>
 // Open the Modal
 function openModal() {
