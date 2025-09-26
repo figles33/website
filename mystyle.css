@@ -29,8 +29,17 @@ a:active {
 	background-image: url("blue.png") ;
 	background-color:darkblue; 
 	color: white; 
+	max-width: 2000px;
+	margin-left: auto;
+	margin-right: auto;
 	font-size: 50px; 
 	text-align: center;	
+}
+
+body {
+	max-width: 2000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .threecolumns:hover {
@@ -45,7 +54,6 @@ mark {
   background-color: darkblue; 
   color: white; 
 }
-
 .aboutme-main {
     overflow: auto;
     margin: 20px 0;
@@ -94,7 +102,7 @@ mark {
 /* Create four equal columns that floats next to eachother */
 .column {
   float: left;
-  width: 24.25%;
+  width: 23%;
 }
 
 /* The Modal (background) */
