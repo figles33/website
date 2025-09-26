@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+a:link {
+  color:lightblue;
+}
+
+a:visited {
+  color: lightblue;
+	background-color:#B0D3E6;
+}
+
+a:hover {
+  color: darkslateblue;
+}
+
+a:active {
+  color: lightblue;
+}
+.threecolumns {
+	width: 28%;
+	padding: 48px;
+	float: left;
+	background-color:#B0D3E6; 
+	margin: 9px;
+	border-style: solid;
+	border-style: 10px
+}
+#headerdiv {
+	background-image: url("blue.png") ;
+	background-color:darkblue; 
+	color: white; 
+	font-size: 50px; 
+	text-align: center;	
+}
+
+.threecolumns:hover {
+	box-shadow: 0px 0px 10px 10px #badaff;
+	transform: translateY(-3px);
+}
+
+.threecolumns:active {
+}
+
+mark {
+  background-color: darkblue; 
+  color: white; 
+}
+
+.aboutme-main {
+    overflow: auto;
+    margin: 20px 0;
+}
+
+.about-images {
+    float: left;
+    width: 220px; 
+    margin-right: 20px;
+}
+
+.about-images img {
+    display: block;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.about-text {
+    overflow: hidden; 
+    color: darkblue;
+    font-size: 1.1em;
+}
+
+@media (max-width: 700px) {
+    .about-images, .about-text {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    .about-images img {
+        width: 100%;
+    }
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 24.25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 10px;
+  margin-top: -25px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
