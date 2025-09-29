@@ -102,7 +102,7 @@ mark {
 /* Create four equal columns that floats next to eachother */
 .column {
   float: left;
-  width: 23%;
+  width: 20%;
 }
 
 /* The Modal (background) */
