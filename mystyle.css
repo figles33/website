@@ -17,7 +17,7 @@ a:active {
   color: lightblue;
 }
 .threecolumns {
-	width: 28%;
+	width: 27%;
 	padding: 48px;
 	float: left;
 	background-color:#B0D3E6; 
@@ -102,7 +102,7 @@ mark {
 /* Create four equal columns that floats next to eachother */
 .column {
   float: left;
-  width: 19%;
+  width: 23%;
 }
 
 /* The Modal (background) */
